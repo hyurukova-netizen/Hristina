@@ -39,3 +39,4 @@ Tools container: localhost:8205
 The repo includes docker-compose.yml wiring frontend, backend, PHP-FPM, MySQL, Redis, and a tools container.
 Frontend expects the backend API on http://localhost:8201/api from your browser.
 
+When any change is done you should stop the container of Docer first, after this start it again because the changes won't appear.
